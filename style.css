@@ -93,6 +93,7 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
+    z-index: -1;
 }
 
 .b-parallax {
@@ -642,7 +643,9 @@ a[data-lightbox]:hover img {
 
 .snapshot-lb .lightbox-caption {
     padding: 0;
-    color: rgba(0, 0, 0, .5);
+    color: black;
+    text-align: center;
+    /*color: rgba(0, 0, 0, .5);*/
     background: none;
 }
 
