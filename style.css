@@ -1076,4 +1076,15 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+
+    .row-no-gutters {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+
+    .container {
+        width: 50%;
+    }
 }
